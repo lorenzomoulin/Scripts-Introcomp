@@ -12,7 +12,7 @@ do
 	
 	if [ "$hora" -ge "$hora_prova" ] ; then
 		
-		if [ "$numero_prova" -gt 10 ]; then
+		if [ "$numero_prova" -gt "numero_de_provas" ]; then
 			echo "---- daqui a 1 hora o site fecha"
 			break
 			
