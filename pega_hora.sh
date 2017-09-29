@@ -1,4 +1,5 @@
 #!/bin/bash
+#posso mudar para passar a hora de inicio como argumento e o número de provas
 hora_prova='090000'
 numero_prova='1'
 hora_final='190000'
@@ -27,6 +28,6 @@ do
 done
 
 if [ "$hora" -ge "$hora_final" ]; then
-			echo "Acabou!!!!!"			
-			break
+	echo "Acabou!!!!!"			
+	break
 fi
